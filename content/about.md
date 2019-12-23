@@ -4,7 +4,7 @@ aliases:
 - about-hugo
 - contact
 author: 
-date: ""
+date: "2019-12-23"
 description: 
 title: About
 ---
