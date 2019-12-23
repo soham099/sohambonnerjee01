@@ -1,0 +1,13 @@
+<html>
+{{partial "head" .}}
+<body>
+    {{partial "header" .}}
+    {{partial "nav" .}}
+        <div id="content">
+        {{- block "main" . }}{{- end }}
+        </div>
+
+    {{- partial "self-define.html" . -}}
+    {{ partial "footer" . }}
+</body>
+</html>

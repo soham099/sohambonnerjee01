@@ -1,0 +1,76 @@
+baseURL = "/"
+title = "Soham Bonnerjee's Home Page"
+theme = "erblog"
+paginate = 3
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+footnoteReturnLinkContents = "^"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+[params]
+    author = "Soham Bonnerjee"
+    bio = """
+    <p> I am a M.Stat 1st Year student in Indian Statistical Institute, Kolkata. </p>
+    <br />
+    <p> Primarily interested in Theoretical Statistics, I am also working on Biostatstics and Machine Learning..</p>
+    """
+    copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+
+
+[[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+    
+[[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10    
+
+[[menu.main]]
+    identifier = "publications"
+    name = "Publications"
+    url = "/publications/"
+    weight = 10
+# [[menu.main]]
+#     identifier = "zone"
+#     name = "Zone"
+#     url = "/zone/"
+#     weight = 10
+
+[[menu.footer]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+
+[[menu.footer]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[taxonomies]
+tag = "tags"
+
+[[menu.icon]]
+    url = "mailto:sohambonnerjee01@mail.com"
+    name = "envelope-o"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/username/"
+    name = "github"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://facebook.com/username"
+    name = "facebook"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://www.instagram.com/username/"
+    name = "instagram"
+    weight = 1
