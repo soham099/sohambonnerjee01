@@ -14,7 +14,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     <br />
     <p> Primarily interested in Theoretical Statistics, I am also working on Biostatstics and Machine Learning.</p>
     """
-    copyright = "Copyright © 2008–2019, Steve Francia and the Hugo Authors; all rights reserved."
+    copyright = "Copyright © 2019–2020, Soham Bonnerjee; all rights reserved."
 
 
 [[menu.main]]
