@@ -1,6 +1,0 @@
----
-aliases:
-description: 
-title: Projects
----
-
